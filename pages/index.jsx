@@ -1,7 +1,15 @@
-import { Menu } from "../components/menu.jsx";
+import dynamic from 'next/dynamic';
 
-export default function index() {
+// Dynamically import the Map component
+const Map = dynamic(() => import('../components/Map'), { ssr: false });
+
+const Home = () => {
     return (
-        <Menu />
-    )
-}
+        <div style={{ height: '100vh' }}>
+            <h1>Zoo App Map</h1>
+            <Map />
+        </div>
+    );
+};
+
+export default Home;
