@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "json": "json-server-auth -p 3001 Database/db.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "json-server": "^0.17.4",
+    "json-server-auth": "^2.1.0",
     "leaflet": "^1.9.4",
     "next": "^15.0.3",
     "primeflex": "^3.3.1",
