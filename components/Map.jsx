@@ -34,7 +34,7 @@ const Map = () => {
     const position = [47.38686, 8.57592]; // Default coordinates
 
     return (
-        <MapContainer center={position} zoom={40} style={{ height: '100vh', width: '100%' }} maxBounds={bounds} maxBoundsViscosity={1.0} minZoom={17} maxZoom={18}>
+        <MapContainer center={position} zoom={40} style={{ height: '100vh', width: '100%' }} maxBounds={bounds} maxBoundsViscosity={1.0} minZoom={16} maxZoom={18}>
             <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
