@@ -6,7 +6,7 @@ if (typeof window !== 'undefined') {
     import('leaflet/dist/leaflet.css');
 }
 
-const Map = () => {
+export default function Map() {
     const [isClient, setIsClient] = useState(false);
 
     useEffect(() => {
@@ -47,5 +47,3 @@ const Map = () => {
         </MapContainer>
     );
 };
-
-export default Map;
