@@ -1,2 +1,9 @@
 {
+    "markers": [
+        {
+            "positionX": 15,
+            "positionY": 16,
+            "title": "some Popup"
+        }
+    ]
 }
