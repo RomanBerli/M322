@@ -1,9 +1,29 @@
 {
     "markers": [
         {
-            "positionX": 47.38686,
-            "positionY": 8.57592,
+            "positionY": 47.38686,
+            "positionX": 8.57592,
             "title": "some Popup"
+        },
+        {
+            "positionY": 47.38742,
+            "positionX": 8.57592,
+            "title": "Dscheladas"
+        },
+        {
+            "positionY": 47.38662,
+            "positionX": 8.57620,
+            "title": "Afrika-Kiosk"
+        },
+        {
+            "positionY": 47.38797,
+            "positionX": 8.57697,
+            "title": "Elefanten"
+        },
+        {
+            "positionY": 47.38840,
+            "positionX": 8.57710,
+            "title": "Kaeng Krachan"
         }
     ]
 }

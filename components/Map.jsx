@@ -55,7 +55,7 @@ export default function Map() {
             {/* TODO make a list with all markers */}
             {markers.map((marker, index) => (
 
-                <Marker key={index} position={[marker.positionX, marker.positionY]} icon={customIcon}>
+                <Marker key={index} position={[marker.positionY, marker.positionX]} icon={customIcon}>
                     <Popup>
                         {marker.title} {/* Assuming each marker has a "name" property */}
                     </Popup>
