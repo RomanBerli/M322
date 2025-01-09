@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Elephant Gehäge",
+        "latitude": 47.385079,
+        "longitude": 8.573937,
+        "description": "The home of the elephants."
+    },
+    {
+        "id": 2,
+        "name": "Lion Gehäge",
+        "latitude": 47.384845,
+        "longitude": 8.575230,
+        "description": "The habitat of the majestic lions."
+    },
+    {
+        "id": 3,
+        "name": "Restaurant -",
+        "latitude": 47.385305,
+        "longitude": 8.572480,
+        "description": "A place to relax and enjoy great food."
+    }
+]
