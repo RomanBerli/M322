@@ -10,10 +10,18 @@ if (typeof window !== 'undefined') {
 
 export default function Map() {
     const [isClient, setIsClient] = useState(false);
+    const [markers, setMarkers] = useState([]);
 
     useEffect(() => {
         // Set client-side rendering flag
         setIsClient(true);
+
+        setMarkers(dbJson.markers);
+        markers.map((marker) => {
+            console.log(marker.title);
+            console.log(marker.positionX);
+            console.log(marker.positionY);
+        });
     }, []);
 
     if (!isClient) {
@@ -38,8 +46,6 @@ export default function Map() {
         iconSize: [40, 40]
     });
 
-    const markersJson = JSON.parse(dbJson);
-
     return (
         <MapContainer center={position} zoom={40} style={{ height: '100vh', width: '100%' }} maxBounds={bounds} maxBoundsViscosity={1.0} minZoom={16} maxZoom={18}>
             <TileLayer
@@ -47,11 +53,14 @@ export default function Map() {
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             />
             {/* TODO make a list with all markers */}
-            <Marker position={position} icon={customIcon}>
-                <Popup>
-                    Some Place
-                </Popup>
-            </Marker>
+            {markers.map((marker, index) => (
+
+                <Marker key={index} position={[marker.positionX, marker.positionY]} icon={customIcon}>
+                    <Popup>
+                        {marker.title} {/* Assuming each marker has a "name" property */}
+                    </Popup>
+                </Marker>
+            ))}
         </MapContainer>
     );
 };
