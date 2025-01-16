@@ -1,23 +1,72 @@
 [
     {
         "id": 1,
-        "name": "Elephant Gehäge",
-        "latitude": 47.385079,
-        "longitude": 8.573937,
-        "description": "The home of the elephants."
+        "name": "Zoo Zürich Haupteingang",
+        "latitude": 47.384313,
+        "longitude": 8.572606,
+        "description": "Der Haupteingang des Zoo Zürich."
     },
     {
         "id": 2,
-        "name": "Lion Gehäge",
-        "latitude": 47.384845,
-        "longitude": 8.575230,
-        "description": "The habitat of the majestic lions."
+        "name": "Kaeng Krachan Elefantenpark",
+        "latitude": 47.388441,
+        "longitude": 8.5758017,
+        "description": "Die beeindruckende Elefantenanlage des Zoo Zürich."
     },
     {
         "id": 3,
-        "name": "Restaurant -",
-        "latitude": 47.385305,
-        "longitude": 8.572480,
-        "description": "A place to relax and enjoy great food."
+        "name": "Lewa Savanne",
+        "latitude": 47.3879885,
+        "longitude": 8.5758017,
+        "description": "Erleben Sie Giraffen, Zebras und weitere Tiere in der Lewa Savanne."
+    },
+    {
+        "id": 4,
+        "name": "Lewa Giraffenhaus",
+        "latitude": 47.3879113,
+        "longitude": 8.5756421,
+        "description": "Das Zuhause der majestätischen Giraffen im Zoo Zürich."
+    },
+    {
+        "id": 5,
+        "name": "Masoala Regenwald",
+        "latitude": 47.3849536,
+        "longitude": 8.5734923,
+        "description": "Ein einzigartiger Einblick in den Regenwald Madagaskars."
+    },
+    {
+        "id": 6,
+        "name": "Aquarium",
+        "latitude": 47.3850561,
+        "longitude": 8.5746172,
+        "description": "Tauchen Sie ein in die faszinierende Unterwasserwelt des Zoos."
+    },
+    {
+        "id": 7,
+        "name": "Himalaya Grill",
+        "latitude": 47.3865269,
+        "longitude": 8.5755883,
+        "description": "Ein Snack-Bereich mit Himalaya-Flair."
+    },
+    {
+        "id": 8,
+        "name": "Restaurant Altes Klösterli",
+        "latitude": 47.3865269,
+        "longitude": 8.5755883,
+        "description": "Schweizer Spezialitäten in einem traditionellen Ambiente."
+    },
+    {
+        "id": 9,
+        "name": "Sangay Bergnebelwald",
+        "latitude": 47.3861221,
+        "longitude": 8.5736899,
+        "description": "Der Nebelwald aus den Anden mit faszinierenden Tieren."
+    },
+    {
+        "id": 10,
+        "name": "Löwenhaus Gir",
+        "latitude": 47.3861221,
+        "longitude": 8.5736899,
+        "description": "Das Zuhause der Löwen im Zoo Zürich."
     }
 ]
