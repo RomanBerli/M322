@@ -1,5 +1,7 @@
 import dynamic from 'next/dynamic';
+import L from 'leaflet';
 import { useEffect, useState } from 'react';
+import dbJson from '../Database/db.json';
 
 // Import leaflet CSS dynamically to avoid issues during SSR
 if (typeof window !== 'undefined') {
@@ -8,10 +10,18 @@ if (typeof window !== 'undefined') {
 
 export default function Map() {
     const [isClient, setIsClient] = useState(false);
+    const [markers, setMarkers] = useState([]);
 
     useEffect(() => {
         // Set client-side rendering flag
         setIsClient(true);
+
+        setMarkers(dbJson.markers);
+        markers.map((marker) => {
+            console.log(marker.title);
+            console.log(marker.positionX);
+            console.log(marker.positionY);
+        });
     }, []);
 
     if (!isClient) {
@@ -22,16 +32,19 @@ export default function Map() {
     // Dynamically import react-leaflet components
     const MapContainer = dynamic(() => import('react-leaflet').then(mod => mod.MapContainer), { ssr: false });
     const TileLayer = dynamic(() => import('react-leaflet').then(mod => mod.TileLayer), { ssr: false });
-    // const Marker = dynamic(() => import('react-leaflet').then(mod => mod.Marker), { ssr: false });
-    // const Popup = dynamic(() => import('react-leaflet').then(mod => mod.Popup), { ssr: false });
+    const Marker = dynamic(() => import('react-leaflet').then(mod => mod.Marker), { ssr: false });
+    const Popup = dynamic(() => import('react-leaflet').then(mod => mod.Popup), { ssr: false });
 
     const bounds = [
         [47.38336, 8.58034], // Southwest corner
         [47.39036, 8.57047], // Northeast corner
     ];
 
-
     const position = [47.38686, 8.57592]; // Default coordinates
+    const customIcon = new L.Icon({
+        iconUrl: '/marker.png',
+        iconSize: [40, 40]
+    });
 
     return (
         <MapContainer center={position} zoom={40} style={{ height: '100vh', width: '100%' }} maxBounds={bounds} maxBoundsViscosity={1.0} minZoom={16} maxZoom={18}>
@@ -39,11 +52,14 @@ export default function Map() {
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             />
-            {/* <Marker position={position}>
-                <Popup>
-                    A sample popup for OpenStreetMap integration.
-                </Popup>
-            </Marker> */}
+            {markers.map((marker, index) => (
+
+                <Marker key={index} position={[marker.positionY, marker.positionX]} icon={customIcon}>
+                    <Popup>
+                        {marker.title} {/* Assuming each marker has a "name" property */}
+                    </Popup>
+                </Marker>
+            ))}
         </MapContainer>
     );
 };
