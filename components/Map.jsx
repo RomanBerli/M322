@@ -52,7 +52,6 @@ export default function Map() {
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             />
-            {/* TODO make a list with all markers */}
             {markers.map((marker, index) => (
 
                 <Marker key={index} position={[marker.positionY, marker.positionX]} icon={customIcon}>
