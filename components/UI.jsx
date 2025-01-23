@@ -1,11 +1,14 @@
 // pages/index.js
-import React, { useState } from "react";
+import React, { useEffect,useState } from "react";
 import { TabMenu } from "primereact/tabmenu";
 import "primereact/resources/themes/saga-purple/theme.css"; // Choose your PrimeReact theme
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import { useSwipeable } from "react-swipeable";
 import dynamic from "next/dynamic";
+import dbJson from '../Database/db.json';
+
+
 // Dynamically import the Map component
 const Map = dynamic(() => import('../components/Map'), { ssr: false });
 
@@ -20,21 +23,13 @@ const UI = () => {
         { label: "Fun", icon: "pi pi-smile" },
     ];
 
-    const content = [
-        [
-            { title: "Elefanten Gehege", subtitle: "Afrika" },
-            { title: "Känguru Gehege", subtitle: "Australien" },
-        ],
-        [
-            { title: "Restaurant Bambus", subtitle: "Lewa Savanne" },
-        ],
-        [
-            { title: "Masoala Halle", subtitle: "Masoala Regenwald" },
-            { title: "Streichel Zoo", subtitle: "Zoolino" },
-        ],
-        [],
-        [],
-    ];
+    const [markers, setMarkers] = useState([]);
+
+    useEffect(() => {
+        setMarkers(dbJson.markers);
+    }, []);
+
+    
 
     const swipeHandlers = useSwipeable({
         onSwipedLeft: () => setActiveIndex((prev) => Math.min(prev + 1, items.length - 1)),
@@ -85,7 +80,8 @@ const UI = () => {
 
                 {/* Content Based on Active Tab */}
                 <div style={{ padding: "1rem" }}>
-                    {content[activeIndex]?.map((item, idx) => (
+                    {dbJson.markers.filter((item) => item.type == "animal"
+                    ).map((item, idx) => (
                         <div
                             key={idx}
                             style={{

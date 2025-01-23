@@ -1,2 +1,121 @@
 {
+    "markers": [
+        {
+            "positionY": 47.38742,
+            "positionX": 8.57592,
+            "title": "Dscheladas",
+            "species": "Theropithecus gelada",
+            "type": "animal",
+            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/dschelada.jpg",
+            "description": "Die Dscheladas sind Primaten aus der Familie der Meerkatzenverwandten und leben in den Hochländern Äthiopiens."
+        },
+        {
+            "positionY": 47.38662,
+            "positionX": 8.57620,
+            "title": "Afrika-Kiosk",
+            "species": "Restaurant",
+            "type": "restaurant",
+            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/afrika_kiosk.jpg",
+            "description": "Der Afrika-Kiosk bietet eine Auswahl an Snacks und Getränken im afrikanischen Ambiente."
+        },
+        {
+            "positionY": 47.38797,
+            "positionX": 8.57697,
+            "title": "Elefanten",
+            "species": "Loxodonta africana",
+            "type": "animal",
+            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/elefanten.jpg",
+            "description": "Die afrikanischen Elefanten sind die größten Landsäugetiere und leben in sozialen Herdenstrukturen."
+        },
+        {
+            "positionY": 47.38840,
+            "positionX": 8.57710,
+            "title": "Kaeng Krachan",
+            "species": "Elefantenpark",
+            "type": "favorit",
+            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/kaeng_krachan.jpg",
+            "description": "Der Kaeng Krachan Elefantenpark bietet den Elefanten eine naturnahe Umgebung mit Bade- und Beschäftigungsmöglichkeiten."
+        },
+        {
+            "positionY": 47.38856,
+            "positionX": 8.57710,
+            "title": "Elefantenhaus",
+            "species": "Gebäude",
+            "type": "favorit",
+            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/elefantenhaus.jpg",
+            "description": "Das Elefantenhaus ist das Zuhause unserer Elefantenherde und ermöglicht spannende Einblicke in ihr Sozialverhalten."
+        },
+        {
+            "positionY": 47.38909,
+            "positionX": 8.57780,
+            "title": "Nacktmulle",
+            "species": "Heterocephalus glaber",
+            "type": "animal",
+            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/nacktmull.jpg",
+            "description": "Nacktmulle sind eusoziale Nagetiere aus Ostafrika, bekannt für ihre ungewöhnliche Lebensweise und Langlebigkeit."
+        },
+        {
+            "positionY": 47.38932,
+            "positionX": 8.57786,
+            "title": "Giraffenhaus",
+            "species": "Gebäude",
+            "type": "favorit",
+            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/giraffenhaus.jpg",
+            "description": "Im Giraffenhaus können Besucher die eleganten Netzgiraffen aus nächster Nähe beobachten."
+        },
+        {
+            "positionY": 47.38818,
+            "positionX": 8.57756,
+            "title": "Pranaburi",
+            "species": "Restaurant",
+            "type": "restaurant",
+            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/pranaburi.jpg",
+            "description": "Das Restaurant Pranaburi bietet thailändische Spezialitäten mit Blick auf die Elefantenanlage."
+        },
+        {
+            "positionY": 47.38638,
+            "positionX": 8.57740,
+            "title": "Wespenplatz",
+            "species": "Picknickplatz",
+            "type": "fun",
+            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/wespenplatz.jpg",
+            "description": "Der Wespenplatz ist ein beliebter Picknickbereich im Zoo Zürich."
+        },
+        {
+            "positionY": 47.38689,
+            "positionX": 8.57829,
+            "title": "Airstrip",
+            "species": "Spielplatz",
+            "type": "fun",
+            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/airstrip.jpg",
+            "description": "Der Airstrip-Spielplatz ist ein Abenteuerbereich für Kinder mit einem Flugzeug-Thema."
+        },
+        {
+            "positionY": 47.38835,
+            "positionX": 8.57871,
+            "title": "Netzgiraffen",
+            "species": "Giraffa reticulata",
+            "type": "animal",
+            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/netzgiraffen.jpg",
+            "description": "Netzgiraffen sind für ihre einzigartigen, netzartigen Fellmuster bekannt und leben in den Savannen Afrikas."
+        },
+        {
+            "positionY": 47.38775,
+            "positionX": 8.57920,
+            "title": "Breitmaulnashörner",
+            "species": "Ceratotherium simum",
+            "type": "animal",
+            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/breitmaulnashorn.jpg",
+            "description": "Die Breitmaulnashörner des Zoo Zürich tragen zum Artenschutz bei und leben in einer weitläufigen Anlage."
+        },
+        {
+            "positionY": 47.385679,
+            "positionX": 8.574767,
+            "title": "Flamingos",
+            "species": "Phoenicopteridae",
+            "type": "animal",
+            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/flamingos.jpg",
+            "description": "Die Flamingos des Zoo Zürich beeindrucken mit ihrem eleganten Gang und ihren rosa Federn."
+        }
+    ]
 }
