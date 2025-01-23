@@ -91,9 +91,99 @@
             "title": "Airstrip"
         },
         {
-            "positionY": 47.38689,
-            "positionX": 8.57829,
-            "title": "Airstrip"
+            "positionY": 47.38730,
+            "positionX": 8.57846,
+            "title": "Dahomey-Zwergrind"
+        },
+        {
+            "positionY": 47.38785,
+            "positionX": 8.57823,
+            "title": "Erdmännchen"
+        },
+        {
+            "positionY": 47.38785,
+            "positionX": 8.57823,
+            "title": "Erdmännchen"
+        },
+        {
+            "positionY": 47.38800,
+            "positionX": 8.57896,
+            "title": "Gravyzebras"
+        },
+        {
+            "positionY": 47.38775,
+            "positionX": 8.57920,
+            "title": "Breitmaulnashörner"
+        },
+        {
+            "positionY": 47.38765,
+            "positionX": 8.58020,
+            "title": "Stachelschweine"
+        },
+        {
+            "positionY": 47.38835,
+            "positionX": 8.57871,
+            "title": "Netzgiraffen"
+        },
+        {
+            "positionY": 47.385230,
+            "positionX": 8.574631,
+            "title": "Pinguine"
+        },
+        {
+            "positionY": 47.385110,
+            "positionX": 8.571895,
+            "title": "Alpakas"
+        },
+        {
+            "positionY": 47.384277,
+            "positionX": 8.572351,
+            "title": "Koalas"
+        },
+        {
+            "positionY": 47.384130,
+            "positionX": 8.572648,
+            "title": "Schicdkröte"
+        },
+        {
+            "positionY": 47.384975,
+            "positionX": 8.572970,
+            "title": "Brillenbär"
+        },
+        {
+            "positionY": 47.384975,
+            "positionX": 8.572970,
+            "title": "Rote Ibisse"
+        },
+        {
+            "positionY": 47.385679,
+            "positionX": 8.574767,
+            "title": "Flamingos"
+        },
+        {
+            "positionY": 47.386667,
+            "positionX": 8.574421,
+            "title": "Trampeltiere"
+        },
+        {
+            "positionY": 47.386416,
+            "positionX": 8.573166,
+            "title": "Indische Löwen"
+        },
+        {
+            "positionY": 47.385911,
+            "positionX": 8.572748,
+            "title": "Schmutzgeier"
+        },
+        {
+            "positionY": 47.385563,
+            "positionX": 8.573306,
+            "title": "Nasenbären"
+        },
+        {
+            "positionY": 47.387977,
+            "positionX": 8.574770,
+            "title": "Betriebszentrum"
         }
     ]
 }
