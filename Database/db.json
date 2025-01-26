@@ -6,7 +6,7 @@
             "title": "Dscheladas",
             "species": "Theropithecus gelada",
             "type": "animal",
-            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/dschelada.jpg",
+            "image": "https://zoo-live.rokka.io/twitter_card_large/3057146efc936010a9a478ef200ff84c39159fa9/2244-0018360-2-0.jpg?itok=8vJTrFL8",
             "description": "Die Dscheladas sind Primaten aus der Familie der Meerkatzenverwandten und leben in den Hochländern Äthiopiens."
         },
         {
@@ -15,7 +15,7 @@
             "title": "Afrika-Kiosk",
             "species": "Restaurant",
             "type": "restaurant",
-            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/afrika_kiosk.jpg",
+            "image": "https://zoo-live.rokka.io/header_half_md_1x/63c69557410668e7988169fd4b7340fe0ac5d202/rsc-2103-1.jpg?h=ac778ff2&itok=WRNfpVQm",
             "description": "Der Afrika-Kiosk bietet eine Auswahl an Snacks und Getränken im afrikanischen Ambiente."
         },
         {
@@ -24,25 +24,16 @@
             "title": "Elefanten",
             "species": "Loxodonta africana",
             "type": "animal",
-            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/elefanten.jpg",
+            "image": "https://zoo-live.rokka.io/twitter_card_large/a33f93811df679fe4a6dd15e5d16508b5653023d/2244-0014343-1.jpg?h=23e8164a&itok=AK8A9M-_",
             "description": "Die afrikanischen Elefanten sind die größten Landsäugetiere und leben in sozialen Herdenstrukturen."
-        },
-        {
-            "positionY": 47.38840,
-            "positionX": 8.57710,
-            "title": "Kaeng Krachan",
-            "species": "Elefantenpark",
-            "type": "favorit",
-            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/kaeng_krachan.jpg",
-            "description": "Der Kaeng Krachan Elefantenpark bietet den Elefanten eine naturnahe Umgebung mit Bade- und Beschäftigungsmöglichkeiten."
         },
         {
             "positionY": 47.38856,
             "positionX": 8.57710,
             "title": "Elefantenhaus",
             "species": "Gebäude",
-            "type": "favorit",
-            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/elefantenhaus.jpg",
+            "type": "attraction",
+            "image": "https://zoo-live.rokka.io/text_width_50_landscape_md_1x/40c7b7c59bd9a68378d119dea883244a1d0b7f35/0014910.jpg?h=637831de&itok=n3EjzvGk",
             "description": "Das Elefantenhaus ist das Zuhause unserer Elefantenherde und ermöglicht spannende Einblicke in ihr Sozialverhalten."
         },
         {
@@ -51,7 +42,7 @@
             "title": "Nacktmulle",
             "species": "Heterocephalus glaber",
             "type": "animal",
-            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/nacktmull.jpg",
+            "image": "https://zoo-live.rokka.io/text_width_100_landscape_md_1x/f67dfeaedddfaf874b1e131532a452f3af52b7a7/rzi-8319-nacktmull-1.jpg?itok=7JaYuka2",
             "description": "Nacktmulle sind eusoziale Nagetiere aus Ostafrika, bekannt für ihre ungewöhnliche Lebensweise und Langlebigkeit."
         },
         {
@@ -59,8 +50,8 @@
             "positionX": 8.57786,
             "title": "Giraffenhaus",
             "species": "Gebäude",
-            "type": "favorit",
-            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/giraffenhaus.jpg",
+            "type": "attraction",
+            "image": "https://www.world-architects.com/images/Projects/87/34/04/e369ba53bcd54e83a3322d264be4b8a2/e369ba53bcd54e83a3322d264be4b8a2.6e7b65d0.jpg",
             "description": "Im Giraffenhaus können Besucher die eleganten Netzgiraffen aus nächster Nähe beobachten."
         },
         {
@@ -69,7 +60,7 @@
             "title": "Pranaburi",
             "species": "Restaurant",
             "type": "restaurant",
-            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/pranaburi.jpg",
+            "image": "https://zoo-live.rokka.io/header_half_md_1x/26b696fbe99649c77065ae506ceb306d1628e7c5/2244-0017027-1.jpg?h=bbe3c2d5&itok=DeyTOngH",
             "description": "Das Restaurant Pranaburi bietet thailändische Spezialitäten mit Blick auf die Elefantenanlage."
         },
         {
@@ -78,7 +69,7 @@
             "title": "Wespenplatz",
             "species": "Picknickplatz",
             "type": "fun",
-            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/wespenplatz.jpg",
+            "image": "https://swissfamilyfun.com/wp-content/uploads/2016/12/529b1-zzoo_play.jpg",
             "description": "Der Wespenplatz ist ein beliebter Picknickbereich im Zoo Zürich."
         },
         {
@@ -87,7 +78,7 @@
             "title": "Airstrip",
             "species": "Spielplatz",
             "type": "fun",
-            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/airstrip.jpg",
+            "image": "https://zoo-live.rokka.io/header_half_md_1x/0e40dca4d3c71df4037d8d57bb6baceee43fcb05/2244-21738.jpg?h=bd72f7ca&itok=svGz9heb",
             "description": "Der Airstrip-Spielplatz ist ein Abenteuerbereich für Kinder mit einem Flugzeug-Thema."
         },
         {
@@ -95,8 +86,8 @@
             "positionX": 8.57871,
             "title": "Netzgiraffen",
             "species": "Giraffa reticulata",
-            "type": "animal",
-            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/netzgiraffen.jpg",
+            "type": "favorite",
+            "image": "https://zoo-live.rokka.io/text_width_50_portrait_md_1x/56bf25fa4f99caf465eb1b14c5c6fe7a8c214d93/giraffe-03.jpg?h=6ef8803f&itok=SUzrnkPk",
             "description": "Netzgiraffen sind für ihre einzigartigen, netzartigen Fellmuster bekannt und leben in den Savannen Afrikas."
         },
         {
@@ -105,7 +96,7 @@
             "title": "Breitmaulnashörner",
             "species": "Ceratotherium simum",
             "type": "animal",
-            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/breitmaulnashorn.jpg",
+            "image": "https://zoo-live.rokka.io/twitter_card_large/a244b1e5ffc895ff976e053c2c5c889551ef6cbd/2244-21474.jpg?h=290f0798&itok=lydwX1pe",
             "description": "Die Breitmaulnashörner des Zoo Zürich tragen zum Artenschutz bei und leben in einer weitläufigen Anlage."
         },
         {
@@ -114,7 +105,7 @@
             "title": "Flamingos",
             "species": "Phoenicopteridae",
             "type": "animal",
-            "image": "https://www.zoo.ch/sites/default/files/styles/teaser_image/public/2021-01/flamingos.jpg",
+            "image": "https://zoo-live.rokka.io/twitter_card_large/3057146efc936010a9a478ef200ff84c39159fa9/2244-0018360-2-0.jpg?itok=8vJTrFL8",
             "description": "Die Flamingos des Zoo Zürich beeindrucken mit ihrem eleganten Gang und ihren rosa Federn."
         }
     ]
