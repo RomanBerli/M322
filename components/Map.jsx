@@ -17,11 +17,6 @@ export default function Map() {
         setIsClient(true);
 
         setMarkers(dbJson.markers);
-        markers.map((marker) => {
-            console.log(marker.title);
-            console.log(marker.positionX);
-            console.log(marker.positionY);
-        });
     }, []);
 
     if (!isClient) {
@@ -56,7 +51,16 @@ export default function Map() {
 
                 <Marker key={index} position={[marker.positionY, marker.positionX]} icon={customIcon}>
                     <Popup>
-                        {marker.title} {/* Assuming each marker has a "name" property */}
+                    <div>
+                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                <div>
+                                    <h2>{marker.title}</h2>
+                                    <p>{marker.species}</p>
+                                </div>
+                                <img src={marker.image} alt="Bild" width={100}/>
+                            </div>
+                           <p>{marker.description}</p>
+                        </div>
                     </Popup>
                 </Marker>
             ))}

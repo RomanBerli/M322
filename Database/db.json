@@ -1,189 +1,112 @@
 {
     "markers": [
         {
-            "positionY": 47.38686,
-            "positionX": 8.57592,
-            "title": "some Popup"
-        },
-        {
             "positionY": 47.38742,
             "positionX": 8.57592,
-            "title": "Dscheladas"
+            "title": "Dscheladas",
+            "species": "Theropithecus gelada",
+            "type": "animal",
+            "image": "https://zoo-live.rokka.io/twitter_card_large/3057146efc936010a9a478ef200ff84c39159fa9/2244-0018360-2-0.jpg?itok=8vJTrFL8",
+            "description": "Die Dscheladas sind Primaten aus der Familie der Meerkatzenverwandten und leben in den Hochländern Äthiopiens."
         },
         {
             "positionY": 47.38662,
             "positionX": 8.57620,
-            "title": "Afrika-Kiosk"
+            "title": "Afrika-Kiosk",
+            "species": "Restaurant",
+            "type": "restaurant",
+            "image": "https://zoo-live.rokka.io/header_half_md_1x/63c69557410668e7988169fd4b7340fe0ac5d202/rsc-2103-1.jpg?h=ac778ff2&itok=WRNfpVQm",
+            "description": "Der Afrika-Kiosk bietet eine Auswahl an Snacks und Getränken im afrikanischen Ambiente."
         },
         {
             "positionY": 47.38797,
             "positionX": 8.57697,
-            "title": "Elefanten"
-        },
-        {
-            "positionY": 47.38840,
-            "positionX": 8.57710,
-            "title": "Kaeng Krachan"
+            "title": "Elefanten",
+            "species": "Loxodonta africana",
+            "type": "animal",
+            "image": "https://zoo-live.rokka.io/twitter_card_large/a33f93811df679fe4a6dd15e5d16508b5653023d/2244-0014343-1.jpg?h=23e8164a&itok=AK8A9M-_",
+            "description": "Die afrikanischen Elefanten sind die größten Landsäugetiere und leben in sozialen Herdenstrukturen."
         },
         {
             "positionY": 47.38856,
             "positionX": 8.57710,
-            "title": "Elefantenhaus"
+            "title": "Elefantenhaus",
+            "species": "Gebäude",
+            "type": "attraction",
+            "image": "https://zoo-live.rokka.io/text_width_50_landscape_md_1x/40c7b7c59bd9a68378d119dea883244a1d0b7f35/0014910.jpg?h=637831de&itok=n3EjzvGk",
+            "description": "Das Elefantenhaus ist das Zuhause unserer Elefantenherde und ermöglicht spannende Einblicke in ihr Sozialverhalten."
         },
         {
             "positionY": 47.38909,
             "positionX": 8.57780,
-            "title": "Nacktmulle"
+            "title": "Nacktmulle",
+            "species": "Heterocephalus glaber",
+            "type": "animal",
+            "image": "https://zoo-live.rokka.io/text_width_100_landscape_md_1x/f67dfeaedddfaf874b1e131532a452f3af52b7a7/rzi-8319-nacktmull-1.jpg?itok=7JaYuka2",
+            "description": "Nacktmulle sind eusoziale Nagetiere aus Ostafrika, bekannt für ihre ungewöhnliche Lebensweise und Langlebigkeit."
         },
         {
             "positionY": 47.38932,
             "positionX": 8.57786,
-            "title": "Giraffenhaus"
+            "title": "Giraffenhaus",
+            "species": "Gebäude",
+            "type": "attraction",
+            "image": "https://www.world-architects.com/images/Projects/87/34/04/e369ba53bcd54e83a3322d264be4b8a2/e369ba53bcd54e83a3322d264be4b8a2.6e7b65d0.jpg",
+            "description": "Im Giraffenhaus können Besucher die eleganten Netzgiraffen aus nächster Nähe beobachten."
         },
         {
             "positionY": 47.38818,
             "positionX": 8.57756,
-            "title": "Pranaburi"
-        },
-        {
-            "positionY": 47.38700,
-            "positionX": 8.57723,
-            "title": "Dahomey-Zwergrind"
-        },
-        {
-            "positionY": 47.38638,
-            "positionX": 8.57695,
-            "title": "Meerschweinchen"
-        },
-        {
-            "positionY": 47.38613,
-            "positionX": 8.57718,
-            "title": "Hühner"
+            "title": "Pranaburi",
+            "species": "Restaurant",
+            "type": "restaurant",
+            "image": "https://zoo-live.rokka.io/header_half_md_1x/26b696fbe99649c77065ae506ceb306d1628e7c5/2244-0017027-1.jpg?h=bbe3c2d5&itok=DeyTOngH",
+            "description": "Das Restaurant Pranaburi bietet thailändische Spezialitäten mit Blick auf die Elefantenanlage."
         },
         {
             "positionY": 47.38638,
             "positionX": 8.57740,
-            "title": "Wespenplatz"
-        },
-        {
-            "positionY": 47.38602,
-            "positionX": 8.57728,
-            "title": "Schweine"
-        },
-        {
-            "positionY": 47.38598,
-            "positionX": 8.57753,
-            "title": "Präriehunde"
-        },
-        {
-            "positionY": 47.38620,
-            "positionX": 8.57770,
-            "title": "Masoala Regenwald"
-        },
-        {
-            "positionY": 47.38630,
-            "positionX": 8.57803,
-            "title": "Kifaru Bar"
+            "title": "Wespenplatz",
+            "species": "Picknickplatz",
+            "type": "fun",
+            "image": "https://swissfamilyfun.com/wp-content/uploads/2016/12/529b1-zzoo_play.jpg",
+            "description": "Der Wespenplatz ist ein beliebter Picknickbereich im Zoo Zürich."
         },
         {
             "positionY": 47.38689,
             "positionX": 8.57829,
-            "title": "Airstrip"
-        },
-        {
-            "positionY": 47.38730,
-            "positionX": 8.57846,
-            "title": "Dahomey-Zwergrind"
-        },
-        {
-            "positionY": 47.38785,
-            "positionX": 8.57823,
-            "title": "Erdmännchen"
-        },
-        {
-            "positionY": 47.38785,
-            "positionX": 8.57823,
-            "title": "Erdmännchen"
-        },
-        {
-            "positionY": 47.38800,
-            "positionX": 8.57896,
-            "title": "Gravyzebras"
-        },
-        {
-            "positionY": 47.38775,
-            "positionX": 8.57920,
-            "title": "Breitmaulnashörner"
-        },
-        {
-            "positionY": 47.38765,
-            "positionX": 8.58020,
-            "title": "Stachelschweine"
+            "title": "Airstrip",
+            "species": "Spielplatz",
+            "type": "fun",
+            "image": "https://zoo-live.rokka.io/header_half_md_1x/0e40dca4d3c71df4037d8d57bb6baceee43fcb05/2244-21738.jpg?h=bd72f7ca&itok=svGz9heb",
+            "description": "Der Airstrip-Spielplatz ist ein Abenteuerbereich für Kinder mit einem Flugzeug-Thema."
         },
         {
             "positionY": 47.38835,
             "positionX": 8.57871,
-            "title": "Netzgiraffen"
+            "title": "Netzgiraffen",
+            "species": "Giraffa reticulata",
+            "type": "favorite",
+            "image": "https://zoo-live.rokka.io/text_width_50_portrait_md_1x/56bf25fa4f99caf465eb1b14c5c6fe7a8c214d93/giraffe-03.jpg?h=6ef8803f&itok=SUzrnkPk",
+            "description": "Netzgiraffen sind für ihre einzigartigen, netzartigen Fellmuster bekannt und leben in den Savannen Afrikas."
         },
         {
-            "positionY": 47.385230,
-            "positionX": 8.574631,
-            "title": "Pinguine"
-        },
-        {
-            "positionY": 47.385110,
-            "positionX": 8.571895,
-            "title": "Alpakas"
-        },
-        {
-            "positionY": 47.384277,
-            "positionX": 8.572351,
-            "title": "Koalas"
-        },
-        {
-            "positionY": 47.384130,
-            "positionX": 8.572648,
-            "title": "Schicdkröte"
-        },
-        {
-            "positionY": 47.384975,
-            "positionX": 8.572970,
-            "title": "Brillenbär"
-        },
-        {
-            "positionY": 47.384975,
-            "positionX": 8.572970,
-            "title": "Rote Ibisse"
+            "positionY": 47.38775,
+            "positionX": 8.57920,
+            "title": "Breitmaulnashörner",
+            "species": "Ceratotherium simum",
+            "type": "animal",
+            "image": "https://zoo-live.rokka.io/twitter_card_large/a244b1e5ffc895ff976e053c2c5c889551ef6cbd/2244-21474.jpg?h=290f0798&itok=lydwX1pe",
+            "description": "Die Breitmaulnashörner des Zoo Zürich tragen zum Artenschutz bei und leben in einer weitläufigen Anlage."
         },
         {
             "positionY": 47.385679,
             "positionX": 8.574767,
-            "title": "Flamingos"
-        },
-        {
-            "positionY": 47.386667,
-            "positionX": 8.574421,
-            "title": "Trampeltiere"
-        },
-        {
-            "positionY": 47.386416,
-            "positionX": 8.573166,
-            "title": "Indische Löwen"
-        },
-        {
-            "positionY": 47.385911,
-            "positionX": 8.572748,
-            "title": "Schmutzgeier"
-        },
-        {
-            "positionY": 47.385563,
-            "positionX": 8.573306,
-            "title": "Nasenbären"
-        },
-        {
-            "positionY": 47.387977,
-            "positionX": 8.574770,
-            "title": "Betriebszentrum"
+            "title": "Flamingos",
+            "species": "Phoenicopteridae",
+            "type": "animal",
+            "image": "https://zoo-live.rokka.io/twitter_card_large/3057146efc936010a9a478ef200ff84c39159fa9/2244-0018360-2-0.jpg?itok=8vJTrFL8",
+            "description": "Die Flamingos des Zoo Zürich beeindrucken mit ihrem eleganten Gang und ihren rosa Federn."
         }
     ]
 }
